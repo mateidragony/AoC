@@ -1,8 +1,9 @@
-#lang racket
+ #lang racket
 
-(define year 2004)
+(define year 0000)
+(define input-directory "inputs")
+(define test-file-name "in-test.txt")
 
-(require racket/struct)
 (require net/url)
 (require racket/format)
 
@@ -85,14 +86,16 @@
 (define (pad-day day)
   (~a day #:min-width 2 #:align 'right #:left-pad-string "0"))
 
-(define (get-input-path day)
-  (format "inputs/in_~a.txt" (pad-day day)))
+(define (get-input-path day) 
+  (format "~a/in_~a.txt" input-directory (pad-day day)))
 
 (define (get-input day)
   (define fname (get-input-path day))
+  (when (not (directory-exists? input-directory))
+    (make-directory input-directory))
   (cond
     ((nand (number? day) (>= day 1) (<= day 25))
-     (file->lines "inputs/in-test.txt"))
+     (file->lines (format "~a/~a" input-directory test-file-name)))
     ((file-exists? fname)
      (file->lines fname))
     (else
