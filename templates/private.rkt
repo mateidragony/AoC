@@ -2,4 +2,4 @@
 
 (provide PRIV_COOKIE)
 
-(define PRIV_COOKIE "") ;; Enter private cookie here
+(define PRIV_COOKIE "session=") ;; Enter private cookie here
