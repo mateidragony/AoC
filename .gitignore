@@ -3,3 +3,4 @@ test.*
 inputs
 
 private.rkt
+!templates/private.rkt

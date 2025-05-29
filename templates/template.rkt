@@ -1,6 +1,5 @@
 #lang racket
 
-(require racket/set)
 (require "utils.rkt")
 
 (day 1)
