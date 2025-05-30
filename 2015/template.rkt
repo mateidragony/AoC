@@ -3,7 +3,6 @@
 (require "utils.rkt")
 
 (day 1)
-(testing #f)
 
 (for ([line lines]) (printf "~a\n" line))
 
