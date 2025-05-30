@@ -2,8 +2,7 @@
 
 (require "utils.rkt")
 
-(day 1)
-(testing #f)
+(day "testing")
 
 (for ([line lines]) (printf "~a\n" line))
 
