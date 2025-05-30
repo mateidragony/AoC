@@ -7,6 +7,8 @@ My code for the annual Advent of Code Competition.
 
 ## Favorite problems
 
+6. [Probably a Fire Hazard](https://adventofcode.com/2015/day/6) (I really thought the lights would draw an easter egg...)
+
 ## The problems I struggled the most on
 
 ## Least favorite problems
