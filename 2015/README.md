@@ -7,9 +7,9 @@ My code for the annual Advent of Code Competition.
 
 ## Favorite problems
 
-6. [Probably a Fire Hazard](https://adventofcode.com/2015/day/6) (I really thought the lights would draw an easter egg...)
-7. [Some Assembly Required](https://adventofcode.com/2015/day/7)
-10. [Elves Look, Elves Say](https://adventofcode.com/2015/day/10) (Don't worry! It's polynomial of degree 71...)
+06\. [Probably a Fire Hazard](https://adventofcode.com/2015/day/6) (I really thought the lights would draw an easter egg...)\
+07\. [Some Assembly Required](https://adventofcode.com/2015/day/7)\
+10\. [Elves Look, Elves Say](https://adventofcode.com/2015/day/10) (Don't worry! It's polynomial of degree 71...)
 
 ## The problems I struggled the most on
 
