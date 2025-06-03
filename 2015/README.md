@@ -15,4 +15,5 @@ My code for the annual Advent of Code Competition.
 
 ## Least favorite problems
 
-4. [The Ideal Stocking Stuffer](https://adventofcode.com/2015/day/4) (This was a bit boring. I got lucky racket has an md5 module!)
+4\. [The Ideal Stocking Stuffer](https://adventofcode.com/2015/day/4) (This was a bit boring. I got lucky racket has an md5 module!)\
+15\. [Science for Hungry People](https://adventofcode.com/2015/day/15) (I was really hoping there was a cool calc way of doing this instead of just brute force...)
