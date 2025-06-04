@@ -13,6 +13,8 @@ My code for the annual Advent of Code Competition.
 
 ## The problems I struggled the most on
 
+19\. [Medicine for Rudolph](https://adventofcode.com/2015/day/19) (I don't know how, but I think the input is fixed. The general solution is too slow.)
+
 ## Least favorite problems
 
 4\. [The Ideal Stocking Stuffer](https://adventofcode.com/2015/day/4) (This was a bit boring. I got lucky racket has an md5 module!)\
