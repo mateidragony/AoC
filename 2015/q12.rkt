@@ -5,8 +5,6 @@
 
 (day 12)
 
-;; (for ([line lines]) (printf "~a\n" line))
-
 ;; Part One                
 (printf "Part one: ~a\n" (sum (map string->number (regexp-match* #px"(-?\\d+)" (first lines)))))
 
