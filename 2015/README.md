@@ -13,7 +13,8 @@ My code for the annual Advent of Code Competition.
 
 ## The problems I struggled the most on
 
-19\. [Medicine for Rudolph](https://adventofcode.com/2015/day/19) (I don't know how, but I think the input is fixed. The general solution is too slow.)
+19\. [Medicine for Rudolph](https://adventofcode.com/2015/day/19) (I don't know how, but I think the input is fixed. The general solution is too slow.)\
+22\. [Wizard Simulator 20XX](https://adventofcode.com/2015/day/22) (This one was just a bit annoying. So many special rules to keep track of and so many opportunities to make quick careless mistakes.)
 
 ## Least favorite problems
 
