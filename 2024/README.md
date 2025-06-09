@@ -18,3 +18,10 @@ We're running it back baby! I have not learned my lesson from last year. This on
 ## Least favorite problems
 14\. [Restroom Redoubt (Part 2)](https://adventofcode.com/2024/day/14) (Wtf is a christmas tree)\
 17\. [Chronospatial Computer (Part 2)](https://adventofcode.com/2024/day/17) (Stop making us study the input. I want to write general solutions, I don't want to have to find some specific behavior that our edge input does.)
+
+## Final Notes
+
+I really enjoyed this year. I don't know if I'm a better programmer or what, but I had a much
+smoother time this year than last year (thank you Racket). A ton of fun problems overall. Some
+fixed input problems, but hey, some of them were kinda fun. Can't wait to see what they pull
+out in 2025!
