@@ -20,3 +20,14 @@ My code for the annual Advent of Code Competition.
 
 4\. [The Ideal Stocking Stuffer](https://adventofcode.com/2015/day/4) (This was a bit boring. I got lucky racket has an md5 module!)\
 15\. [Science for Hungry People](https://adventofcode.com/2015/day/15) (I was really hoping there was a cool calc way of doing this instead of just brute force...)
+
+## Final Notes
+
+Doing this year after having done 2023 and 2024 really shows me how far AoC has gotten.
+Some of these questions were a tad scuffed and some were just a bit boring. A lot of the second
+problems didn't really expand on the first problem and were often just as easy as the first
+problem. You can also tell that they were really trying to go off with a bang with this first AoC
+since they included so many common computing problems (traveling salesman, conway's, collatz, 
+etc.). Not really the biggest fan of fixed inputs or NP problems, but it's not that big of a deal.
+I had a fun time doing this, and I don't see why I shouldn't just keeping going through and play 
+the next years I haven't done yet. See you in 2016! (Says me in 2025...)
