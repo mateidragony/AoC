@@ -2,5 +2,6 @@
 test.*
 inputs
 
+# Racket private cookie
 private.rkt
-!templates/private.rkt
+!templates/racket/private.rkt
