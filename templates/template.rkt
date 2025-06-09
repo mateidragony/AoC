@@ -6,7 +6,7 @@
 
 (for ([line lines]) (printf "~a\n" line))
 
-;; Part One                
+;; Part One
 (printf "Part one: ~a\n" 0)
 
 ;; Part Two
