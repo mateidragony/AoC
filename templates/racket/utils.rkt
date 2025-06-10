@@ -13,7 +13,7 @@
  ;; input api
  lines chars rows cols day testing
  ;; general utils
- sum char-num? b->n symbol-append number->symbol
+ sum char-num? b->n add-points symbol-append number->symbol
  ls-of sub-list 2d-ref 2d-vec-copy 2d-set! sub-vec
  in-bounds dict-filter dict-append flip-dict
  set-map->set set-filter set-filter-map set-flatten
@@ -25,7 +25,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; General utils
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(struct point (x y) #:transparent)
 (define/contract (sum ls)
   (-> (listof integer?) integer?)
   (foldr + 0 ls))
@@ -35,6 +34,13 @@
 (define/contract (b->n b)
   (-> boolean? integer?)
   (if b 1 0))
+
+;; points
+(struct point (x y) #:transparent)
+(define/contract (add-points p1 p2)
+  (-> point? point? point?)
+  (point (+ (point-x p1) (point-x p2))
+         (+ (point-y p1) (point-y p2))))
 
 ;; Extra symbol functions
 (define/contract (symbol-append s1 s2)
