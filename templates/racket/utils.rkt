@@ -14,6 +14,7 @@
  lines chars rows cols day testing
  ;; general utils
  sum char-num? b->n add-points symbol-append number->symbol
+ regexp-match*-overlapping
  ls-of sub-list 2d-ref 2d-vec-copy 2d-set! sub-vec
  in-bounds dict-filter dict-append flip-dict dict-max-k/v
  set-map->set set-filter set-filter-map set-flatten
@@ -34,7 +35,14 @@
 (define/contract (b->n b)
   (-> boolean? integer?)
   (if b 1 0))
-
+(define/contract (regexp-match*-overlapping pattern str (start 0))
+  (->* (regexp? string?) (integer?) any/c)
+  (define len (string-length str))
+  (define m (regexp-match pattern str (min len start)))
+  (cond
+    ((>= start len) '())
+    ((not m) '())
+    (else (cons (car m) (regexp-match*-overlapping pattern str (+ start 1))))))
 ;; points
 (struct point (x y) #:transparent)
 (define/contract (add-points p1 p2)
