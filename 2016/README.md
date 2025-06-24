@@ -7,6 +7,8 @@ My code for the annual Advent of Code Competition.
 
 ## Favorite problems
 
+09\. [Explosives in Cyberspace](https://adventofcode.com/2016/day/9)
+
 ## The problems I struggled the most on
 
 ## Least favorite problems

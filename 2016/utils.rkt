@@ -68,7 +68,7 @@
 
 ;; Extra vector functions
 (define/contract (2d-ref m i j [d #f])
-  (-> (vectorof (vectorof any/c)) integer? integer? any/c any/c)
+  (->* ((vectorof (vectorof any/c)) integer? integer?) (any/c) any/c)
   (if (in-bounds m i j) (vector-ref (vector-ref m i) j) d))
 (define/contract (2d-vec-copy m)
   (-> (vectorof (vectorof any/c)) (vectorof (vectorof any/c)))
