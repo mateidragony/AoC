@@ -15,7 +15,7 @@
  ;; general utils
  sum char-num? b->n add-points symbol-append number->symbol
  ls-of sub-list 2d-ref 2d-vec-copy 2d-set! sub-vec
- in-bounds dict-filter dict-append flip-dict
+ in-bounds dict-filter dict-append flip-dict dict-max-k/v
  set-map->set set-filter set-filter-map set-flatten
  uniquify-name get-or-default
  (struct-out point)
@@ -116,6 +116,14 @@
 (define/contract (flip-dict d empty-dict)
   (-> dict? dict? dict?)
   (foldr (λ (x d) (dict-set d (cdr x) (car x))) empty-dict (dict->list d)))
+(define/contract (dict-max-k/v d fn)
+  (-> dict? (-> any/c any/c boolean?) (values any/c any/c))
+  (for/fold ([km (first (dict-keys d))]
+             [vm (dict-ref d (first (dict-keys d)))])
+            ([k (dict-keys d)])
+    (if (fn (dict-ref d k) vm)
+        (values k (dict-ref d k))
+        (values km vm))))
 
 ;; Extra set functions
 (define/contract (set-map->set proc st)
