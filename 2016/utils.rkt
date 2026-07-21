@@ -15,7 +15,7 @@
  ;; general utils
  sum char-num? b->n add-points symbol-append number->symbol
  regexp-match*-overlapping
- ls-of sub-list 2d-ref 2d-vec-copy 2d-set! sub-vec
+ ls-of sub-list chunk-by 2d-ref 2d-vec-copy 2d-set! sub-vec
  in-bounds dict-filter dict-append flip-dict dict-max-k/v
  set-map->set set-filter set-filter-map set-flatten
  uniquify-name get-or-default
@@ -65,6 +65,12 @@
 (define/contract (sub-list l s e)
   (-> list? integer? integer? list?)
   (drop (take l e) s))
+(define/contract (chunk-by ls n)
+  (-> list? integer? list?)
+  (cond
+    ((null? ls) '())
+    (else (cons (take ls n) (chunk-by (drop ls n) n)))))
+
 
 ;; Extra vector functions
 (define/contract (2d-ref m i j [d #f])

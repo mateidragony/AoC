@@ -20,5 +20,6 @@ about instructions being confusing and just a tough problem in general to optimi
 
 14\. [One-Time Pad](https://adventofcode.com/2016/day/14) (Bro chill tf out with md5. Twice in
 one year??)
+16\. [Dragon Checksum](https://adventofcode.com/2016/day/16) (I hate when part 2 optimization has nothing to do with finding a clever solution and instead using more optimal data structures. It just punishes you for language choice.)
 
 ## Final Notes
