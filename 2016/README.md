@@ -7,12 +7,18 @@ My code for the annual Advent of Code Competition.
 
 ## Favorite problems
 
-09\. [Explosives in Cyberspace](https://adventofcode.com/2016/day/9)
-12\. [Leonardo's Monorail](https://adventofcode.com/2016/day/12)
+09\. [Explosives in Cyberspace](https://adventofcode.com/2016/day/9)\
+12\. [Leonardo's Monorail](https://adventofcode.com/2016/day/12)\
 15\. [Timing is Everything](https://adventofcode.com/2016/day/15)
 
 ## The problems I struggled the most on
 
+11\. [Radioisotope Thermoelectric Generators](https://adventofcode.com/2016/day/11) (Something
+about instructions being confusing and just a tough problem in general to optimize...)
+
 ## Least favorite problems
+
+14\. [One-Time Pad](https://adventofcode.com/2016/day/14) (Bro chill tf out with md5. Twice in
+one year??)
 
 ## Final Notes
