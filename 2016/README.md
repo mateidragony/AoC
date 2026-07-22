@@ -9,7 +9,8 @@ My code for the annual Advent of Code Competition.
 
 09\. [Explosives in Cyberspace](https://adventofcode.com/2016/day/9)\
 12\. [Leonardo's Monorail](https://adventofcode.com/2016/day/12)\
-15\. [Timing is Everything](https://adventofcode.com/2016/day/15)
+15\. [Timing is Everything](https://adventofcode.com/2016/day/15)\
+17\. [Two Steps Forward](https://adventofcode.com/2016/day/17) (Despite md5 making its **THIRD** appearance this year, this puzzle was really fun.)
 
 ## The problems I struggled the most on
 
