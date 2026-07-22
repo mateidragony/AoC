@@ -15,7 +15,8 @@ My code for the annual Advent of Code Competition.
 ## The problems I struggled the most on
 
 11\. [Radioisotope Thermoelectric Generators](https://adventofcode.com/2016/day/11) (Something
-about instructions being confusing and just a tough problem in general to optimize...)
+about instructions being confusing and just a tough problem in general to optimize...)\.
+19\. [An Elephant Named Joseph](https://adventofcode.com/2016/day/19) (Not entirely sure how this worked.)
 
 ## Least favorite problems
 
